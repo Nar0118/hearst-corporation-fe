@@ -1,0 +1,59 @@
+.home {
+}
+
+.statistics {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px auto;
+}
+
+.middlePart {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.leftPart,
+.rightPart {
+  width: 50%;
+}
+
+.rightPart > img {
+  width: 100%;
+}
+
+.chartTitle {
+  font-size: large;
+  color: green;
+  margin-left: 100px;
+}
+
+.circleChart {
+  width: 50%;
+}
+
+.horizontalPart {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.endPart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item{
+  width: 30%;
+}
+
+.countryReview{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.countryReview > div{
+  width: 80%;
+}

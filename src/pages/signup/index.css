@@ -1,0 +1,45 @@
+.signup {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+.content {
+    width: 400px;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup .title {
+    font-size: 28px !important;
+    color: rgb(3, 251, 3);
+    font-weight: 700;
+}
+
+.inputs {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.auth-navigate-button {
+    border: 1px solid green !important;
+    color: green !important;
+    font-weight: bold !important;
+}

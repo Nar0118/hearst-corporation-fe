@@ -1,0 +1,21 @@
+.searchInput {
+  border: 1px solid #48a448;
+  border-radius: 20px !important;
+  flex-direction: row-reverse;
+  max-width: 310px;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.searchInput::before,
+::after {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchInput {
+    margin-top: 0;
+  }
+}

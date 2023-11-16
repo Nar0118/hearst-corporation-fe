@@ -1,0 +1,83 @@
+.hashrateMeasuredHContainer {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px 20px 20px 20px;
+  min-height: 341px;
+}
+
+.hashrateMeasuredChart {
+  min-height: 215px;
+  padding: 0 30px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1f1f1f;
+  margin: 0;
+}
+
+.lineChart {
+  min-height: 300px !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.chartSwitch {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.selected {
+  font-weight: 600;
+  font-size: 14px;
+  color: #262a2b;
+  border-bottom: 2px solid #008000;
+  cursor: pointer;
+}
+
+.disabled {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .hashrateMeasuredHContainer {
+    padding: 20px;
+  }
+
+  .lineChart {
+    min-height: 100% !important;
+  }
+
+  h2 {
+    font-weight: 500;
+    color: #1f1f1f;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .chartSwitch {
+    margin-bottom: 15px;
+  }
+
+  .selected {
+    font-size: 12px;
+  }
+
+  .disabled {
+    font-size: 12px;
+  }
+
+  .hashrateMeasuredChart {
+    padding: 0 0 15px;
+  }
+}

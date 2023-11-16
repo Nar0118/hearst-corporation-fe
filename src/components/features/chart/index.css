@@ -1,0 +1,13 @@
+.chart {
+  padding: 50px;
+}
+
+.chartTitle {
+  font-size: large;
+  color: green;
+}
+
+.doughnut {
+  width: 100%;
+  height: auto;
+}

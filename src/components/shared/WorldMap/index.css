@@ -1,0 +1,42 @@
+.map-container {
+  padding: 31px 23px 0 23px;
+  border-radius: 5px;
+  background: #ffffff;
+  max-height: 550px;
+  width: 34%;
+}
+
+.map {
+  padding: 60px 0 0 0
+}
+
+.map-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1f1f1f;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1130px) {
+  .map-container {
+    width: 100%;
+    padding: 20px 20px 0;
+  }
+  .map {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map-title {
+    font-size: 18px;
+  }
+  .map {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+  }
+}

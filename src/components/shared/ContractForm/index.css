@@ -1,0 +1,217 @@
+.containerContract {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 30px 50px;
+  max-width: 500px;
+  max-height: 650px;
+  background-color: white;
+}
+
+.contract-form-c {
+  overflow: auto;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contract-from-title-c {
+  font-size: 20px !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 26px !important;
+  line-height: 39px !important;
+  letter-spacing: 0.02em !important;
+  color: #232323 !important;
+}
+
+.inputContainer {
+  max-width: 380px !important;
+  margin-top: 10px !important;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666666;
+  margin-top: 10px;
+}
+
+input[type='number'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.contract-form-c .MuiInputBase-root {
+  border: 1px solid rgba(0, 128, 0, 0.2) !important;
+  border-radius: 10px !important;
+}
+
+.contractSectionLastElement {
+  width: 100% !important;
+}
+
+.contractSection {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  column-gap: 15px;
+}
+
+.countries {
+  padding: 10px 0 10px 8px !important;
+  border: 2px solid rgba(0, 128, 0, 0.2) !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+  color: #686e79 !important;
+  font-size: 16px;
+  outline: none;
+  max-width: 390px;
+}
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('../../../assets/images/grayArrow.svg');
+  background-repeat: no-repeat;
+  background-position: 93% center;
+}
+
+select::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #000; /* Customize the color of the arrow */
+  transform: translateY(-50%);
+}
+.countries option {
+  width: 10px !important;
+}
+input[type='date']::-webkit-calendar-picker-indicator {
+  background-image: url('../../../assets/images/calendar.svg');
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.country-error {
+  border-color: red;
+}
+
+.country-regular {
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+.app-button {
+  border-radius: 10px !important;
+  padding: 7.5px 56px !important;
+  font-size: 12px !important;
+  font-family: 'Poppins';
+  text-transform: none !important;
+  margin-top: 50px !important;
+  margin-bottom: 15px !important;
+}
+
+.app-button:disabled {
+  background: rgba(0, 128, 0, 0.3) !important;
+}
+.containerContract .MuiFormControl-root {
+  margin-top: 5px !important;
+}
+.dateInput {
+  padding-left: 10px;
+  width: 100%;
+  height: 47px;
+  border: 2px solid rgba(0, 128, 0, 0.2) !important;
+  border-radius: 10px;
+  outline: none;
+  background-image: url('../../../assets/images/calendar.svg');
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 16px;
+}
+.errorMassageContract {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 10px;
+  line-height: 20px;
+  color: #ff4242;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contract-from-title-c {
+    font-size: 18px !important;
+  }
+  .containerContract {
+    max-height: 100vh;
+  }
+  .contract-form-c {
+    overflow: scroll;
+    overflow-x: auto;
+  }
+
+  .contractSection {
+    display: block;
+    width: 100%;
+  }
+}
+
+.react-datepicker__triangle {
+  display: none;
+}
+
+.react-datepicker__header {
+  background-color: #fff;
+  border: none;
+}
+
+.react-datepicker__current-month {
+  height: 30px;
+  border-bottom: 1px solid rgba(231, 231, 231, 0.6);
+}
+
+.react-datepicker__day--selected {
+  background: #008000;
+}
+.react-datepicker__day--keyboard-selected:hover,
+.react-datepicker__day--keyboard-selected {
+  background: #00800083;
+  color: hsl(0, 0%, 100%);
+}
+.react-datepicker__day--outside-month {
+  color: rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 360px) {
+  .contract-from-title-c {
+    font-size: 18px !important;
+  }
+  .containerContract {
+    max-height: 100vh;
+    padding: 30px 10px;
+  }
+  .contract-form-c {
+    overflow: scroll;
+  }
+  .contractSection {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+}

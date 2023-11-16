@@ -1,0 +1,22 @@
+.title {
+  font-size: 14px !important;
+  color: green !important;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.Statistics {
+  margin-top: 0px;
+}
+
+.amount {
+  color: green;
+  font-size: 28px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.growth {
+  font-size: 14px;
+  margin-top: 0px;
+}

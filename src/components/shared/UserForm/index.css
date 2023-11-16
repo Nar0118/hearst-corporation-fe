@@ -1,0 +1,126 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-content {
+  width: 100%;
+  padding: 54px 70px 60px 70px;
+  margin: 0 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 9px;
+}
+
+.inputFieldHeader {
+  width: 180px !important;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666666;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.user-content .MuiInputBase-root {
+  border: 1px solid rgba(0, 128, 0, 0.2);
+  border-radius: 10px !important;
+}
+.user-content .MuiTypography-root {
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 26px !important;
+  line-height: 39px;
+  letter-spacing: 0.02em;
+  color: #232323 !important;
+  margin-bottom: 10px;
+}
+
+.inputField {
+  max-width: 390px !important;
+  margin-top: 0px;
+}
+
+.contract-from-title {
+  font-size: 24px !important;
+  color: #232323 !important;
+}
+
+.buttons {
+  margin-top: 23px !important;
+}
+.user-content img {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.MuiBox-root {
+  border-radius: 10px;
+}
+
+.submitButton {
+  padding: 7px 30px !important;
+  width: 100% !important;
+  background-color: #008000 !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  text-transform: capitalize !important;
+  padding: 6px 16px !important;
+  width: 124px !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+.user-from-title {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+
+.asterisk {
+  color: #ff4242;
+  font-size: 15px;
+}
+.user-content .MuiFormControl-root {
+  cursor: pointer;
+  margin: 0 !important;
+}
+.wrapInput {
+  width: 100%;
+}
+
+.container .MuiSelect-icon {
+  right: 25px !important;
+  top: 20px !important;
+  color: rgba(177, 177, 177, 1) !important;
+  font-size: 15px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .user-from-title {
+    font-size: 18px !important;
+  }
+  .label {
+    font-size: 12px !important;
+  }
+  input::placeholder {
+    font-size: 12px !important;
+  }
+  .user-content {
+    min-height: 640px;
+    padding: 54px 20px 60px 20px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .user-content {
+    margin: 0 10px;
+  }
+}

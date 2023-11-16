@@ -1,0 +1,89 @@
+.revenue-chart {
+  width: 34%;
+  min-height: 410px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 31px 24px 0 24px;
+}
+
+.revenue-chart > h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1f1f1f;
+  margin: 0 0 30px 0;
+}
+
+.revenue-chart > div {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+.revenue-chart > div > div {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.revenue-chart-color-1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #6db66d;
+}
+
+.revenue-chart-color-2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #215847;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.id {
+  color: #666666;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .revenue-chart canvas {
+    max-height: 270px !important;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .revenue-chart {
+    max-width: 100%;
+    width: 100%;
+    padding: 31px 30px 0 24px;
+    max-height: 410px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .revenue-chart {
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+  }
+
+  .revenue-chart > h2 {
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-size: 18px;
+  }
+
+  .revenue-chart > div {
+    margin-bottom: 45px;
+    margin-left: 10px;
+  }
+}

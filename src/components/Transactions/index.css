@@ -1,0 +1,72 @@
+.wrapperTransactionTable {
+  background-color: #fff;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  min-height: 150px;
+  position: relative;
+}
+.wrapperTransactionTableText {
+  margin-left: 20px;
+}
+
+.paymentProgress {
+ position: absolute;
+ left: 50%;
+ top: 70%;
+}
+
+.tableDate {
+  margin-left: 30px;
+}
+
+.contract-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #1f1f1f;
+  line-height: 24px;
+  margin-left: 22px;
+}
+
+.dates {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.date {
+  height: 47px !important;
+  margin: 0 17.5px !important;
+  z-index: 12;
+}
+
+.dateActive {
+  border: 1px solid rgb(0, 128, 0);
+}
+
+.dates > button {
+  width: 81px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wrapperTransactionTableText .MuiInputBase-root {
+  border: none !important;
+  padding-left: 25px;
+}
+.wrapperTransactionTable #demo-simple-select {
+  width: 150px;
+  text-align: start;
+}
+
+.no_payment_hostory {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contract-title {
+    font-size: 18px;
+  }
+}

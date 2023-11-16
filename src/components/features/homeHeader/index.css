@@ -1,0 +1,173 @@
+.homeHeader {
+  background-color: green !important;
+}
+.logo {
+  object-fit: contain;
+  width: 250px;
+}
+
+.MuiMenu-paper {
+  min-width: 280px !important;
+  max-width: 387px !important;
+  width: 100%;
+}
+
+.MuiContainer-root {
+  padding: 0 50px !important;
+}
+
+.homeHeader .MuiTypography-body1 {
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize !important;
+}
+
+.name {
+  font-family: 'Poppins' !important;
+  text-transform: none !important;
+  font-style: normal !important;
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  display: flex;
+  gap: 8px;
+  margin-left: 17px !important;
+  flex-direction: column;
+}
+
+.firstName {
+  font-size: 18px !important;
+  line-height: 27px !important;
+  display: flex !important;
+  align-items: center !important;
+  letter-spacing: 0.01em !important;
+  display: flex;
+  gap: 10px;
+}
+
+.email {
+  font-size: 13px !important;
+  line-height: 15px !important;
+}
+
+.MuiAvatar-circular {
+  width: 59px !important;
+  height: 59px !important;
+}
+
+.MuiBackdrop-invisible:hover {
+  background-color: transparent !important;
+}
+
+.contentTitle {
+  display: none;
+}
+
+#menu-appbar ul li:last-child p img {
+  margin-top: 5px !important;
+}
+
+#menu-appbar ul li:last-child {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .homeHeader {
+    background-color: #7b7597;
+    width: 100%;
+  }
+
+  .logo {
+    width: 110px;
+  }
+
+  .avatar {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .name {
+    display: none;
+  }
+
+  #menu-appbar ul {
+    background-color: #008000;
+    padding-left: 30px !important;
+    padding-bottom: 40px !important;
+  }
+
+  #menu-appbar ul li p {
+    color: #fff !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+  }
+
+  #menu-appbar ul li {
+    min-height: 20px !important;
+    padding-top: 0px;
+  }
+
+  #menu-appbar {
+    width: 362px !important;
+  }
+
+  #menu-appbar div {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  #menu-appbar ul li:first-child p {
+    font-size: 18px !important;
+  }
+
+  .contentTitle {
+    color: #fff;
+    padding-left: 15px;
+    font-family: 'Poppins';
+    display: block;
+  }
+
+  header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contentTitleEmail {
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .blueSkyInnovations {
+    margin-bottom: 1px;
+  }
+
+  .MuiContainer-root {
+    padding: 0 20px !important;
+  }
+
+  .logOutIcon {
+    filter: brightness(0) invert(1);
+  }
+
+  #menu-appbar ul li:last-child {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+  }
+
+  #menu-appbar ul li p img {
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiContainer-root {
+    padding: 0 11px !important;
+  }
+}

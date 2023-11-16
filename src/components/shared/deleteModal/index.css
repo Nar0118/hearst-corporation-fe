@@ -1,0 +1,84 @@
+.deleteModal {
+  text-align: center !important;
+  background-color: #ffffff;
+  padding: 50px 45px 15px 45px;
+  max-width: 442px;
+  max-height: 344px;
+  border-radius: 9px;
+}
+
+.deleteModal h1 {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+  color: #232323;
+}
+
+.deleteModal p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.buttonSection {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.buttonSection button {
+  width: 124px;
+  height: 33px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500 !important;
+  font-family: 'Poppins' !important;
+}
+
+.buttonSection button:first-child {
+  width: 124px;
+  height: 33px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500 !important;
+  font-family: 'Poppins' !important;
+  background: unset;
+  border: 1.5px solid #008000;
+  color: #000;
+}
+
+.buttonSection button:last-child {
+  width: 124px;
+  height: 33px;
+  border-radius: 10px;
+  background-color: #008000;
+  font-size: 12px;
+  font-weight: 500 !important;
+  font-family: 'Poppins' !important;
+  color: #ffffff;
+}
+@media only screen and (max-width: 600px) {
+  .deleteModal h1 {
+    font-size: 18px;
+  }
+  .deleteModal p {
+    font-size: 14px;
+  }
+  .deleteIcon {
+    width: 55px;
+    height: 55px;
+  }
+  .buttonSection {
+    margin: 10%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .deleteModal p {
+    font-size: 12px;
+  }
+  .deleteModal {
+    padding: 20px;
+  }
+}

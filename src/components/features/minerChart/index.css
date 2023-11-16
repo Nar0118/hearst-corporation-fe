@@ -1,0 +1,131 @@
+.wrapper {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 20px 0 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 543px;
+}
+
+.doughnut {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.titleMiner {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1f1f1f;
+  margin: 0;
+}
+
+.minWrap {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0 35px;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.labels > div:first-child > .circle {
+  background: #008000;
+  box-shadow: 0 4px 10px 2px rgba(16, 188, 137, 0.2);
+}
+
+.labels > div:nth-child(2) > .circle {
+  background: #48a448;
+  box-shadow: 0 4px 10px 2px rgba(229, 65, 65, 0.2);
+}
+
+.labels > div:nth-child(3) > .circle {
+  background: #6db66d;
+  box-shadow: 0 4px 10px 2px rgba(31, 139, 172, 0.2);
+}
+
+.labels > div:last-child > .circle {
+  background: #b6dab6;
+  box-shadow: 0 4px 10px 2px rgba(163, 69, 28, 0.2);
+}
+
+.miner-chart-label {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.circle {
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1130px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .minWrap {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .labels {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .miner-chart-label {
+    font-size: 14px;
+  }
+
+  .wrapper {
+    padding: 20px 10px 0;
+  }
+
+  .minWrap {
+    width: 100%;
+    margin: 40px 0 30px;
+    gap: 10px;
+  }
+
+  .minWrap > canvas {
+    max-width: 125px;
+    max-height: 125px;
+  }
+
+  .titleMiner {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .labels {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .minWrap {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+}

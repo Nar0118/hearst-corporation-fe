@@ -1,0 +1,48 @@
+.machineInformation {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.machineInformation .inputField {
+  max-width: 390px !important;
+}
+
+.inputSection {
+  margin-bottom: 10px;
+}
+
+.contract-form-c .MuiInputBase-root {
+  border: 1px solid rgba(0, 128, 0, 0.2);
+  border-radius: 10px !important;
+}
+
+.contractTitle {
+  font-size: 24px !important;
+  color: #232323 !important;
+  font-family: 'Poppins' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 26px !important;
+  line-height: 39px !important;
+  letter-spacing: 0.02em !important;
+  color: #232323 !important;
+}
+
+.submitButton {
+  margin: 10px !important;
+  max-width: 140px;
+  padding: 7px 20px !important;
+  background-color: #008000 !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  text-transform: capitalize !important;
+}

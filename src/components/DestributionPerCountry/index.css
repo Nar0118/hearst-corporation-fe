@@ -1,0 +1,33 @@
+.distribution {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 29%;
+}
+
+.title {
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  color: #1f1f1f !important;
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 1130px) {
+  .distribution {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .distribution {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+}

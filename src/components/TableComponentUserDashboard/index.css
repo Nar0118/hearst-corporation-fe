@@ -1,0 +1,189 @@
+.tableWrapper .MuiTablePagination-selectLabel,
+.tableWrapper .MuiTablePagination-displayedRows,
+.tableWrapper .css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  display: none !important;
+}
+
+.tableWrapper .MuiPaper-root {
+  padding: 30px 22px;
+}
+.tableWrapper .MuiIconButton-root {
+  color: rgba(0, 128, 0, 1) !important;
+}
+.tableWrapper {
+  max-width: 1436px;
+  align-self: center;
+  width: 100%;
+}
+
+.tableWrapper .Mui-disabled {
+  color: rgba(0, 128, 0, 0.5) !important;
+}
+.tableWrapper th {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #fff !important;
+}
+
+.MuiTableContainer-root {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+}
+.MuiTableContainer-root::-webkit-scrollbar {
+  width: 1px;
+  height: 10px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb {
+  background: rgba(0, 128, 0, 1);
+  border-radius: 9px;
+}
+.MuiTableContainer-root::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.info {
+  width: 30%;
+}
+
+tbody tr td {
+  height: 30px;
+  padding: 8px !important;
+}
+
+.tableWrapper .MuiTableContainer-root {
+  max-height: 100% !important;
+}
+.MuiTableCell-root {
+  text-align: center !important;
+}
+.Mui-selected {
+  color: #fff !important;
+  background-color: #008000 !important ;
+}
+.pagination .MuiBox-root {
+  min-width: 180px !important;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav {
+  justify-content: center;
+}
+.pagination .MuiInputBase-root {
+  border-radius: 16px !important;
+  border: 1px solid #008000;
+  width: 73px;
+  height: 32px;
+}
+
+.MuiPopover-paper {
+  min-width: 100px !important;
+}
+.MuiMenu-list .Mui-selected {
+  color: #008000 !important;
+  background-color: #c5efc563 !important;
+}
+
+tbody {
+  min-height: 500px;
+  width: 100%;
+}
+
+.loadingUserTable {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+thead tr th:first-of-type {
+  border-bottom-left-radius: 11px;
+}
+
+thead tr th:first-of-type {
+  border-top-left-radius: 11px;
+}
+
+thead tr th:last-of-type {
+  border-bottom-right-radius: 11px;
+}
+
+thead tr th:last-of-type {
+  border-top-right-radius: 11px;
+}
+
+tbody tr th:nth-child(2) {
+  color: #000;
+}
+.css-1ps6pg7-MuiPaper-root {
+  box-shadow: none !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-right: 37px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .tableWrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pagination {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .info {
+    white-space: nowrap;
+    color: #a5a3a9;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+  }
+  .showing {
+    font-size: 12px !important;
+  }
+  .pagination .MuiInputBase-root {
+    width: 58px;
+    height: 24px;
+  }
+  .pagination .MuiSelect-select {
+    font-size: 10px;
+    padding-right: 15px !important;
+  }
+  .pagination nav {
+    padding-top: 40px;
+    height: 0;
+  }
+  .pagination nav ul li button {
+    font-size: 12px !important;
+    margin: 0 !important;
+    min-width: 25px !important;
+    height: 25px !important;
+  }
+  .arrow {
+    width: 10px;
+    height: 10px;
+  }
+  .pagination .MuiBox-root {
+    min-width: 10px !important;
+  }
+  .MuiTableContainer-root {
+    margin-bottom: 15px !important;
+  }
+}

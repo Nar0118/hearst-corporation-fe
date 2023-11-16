@@ -1,0 +1,267 @@
+.login {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: #fff;
+  gap: 8%;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.contentLogin {
+  width: auto;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0px 10px 15px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 9px;
+  padding: 0 20px 89px 20px;
+  margin-bottom: 10px;
+}
+
+.contentLogin > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #232323;
+  margin-bottom: 22px;
+  margin-top: 54px;
+  align-self: center;
+}
+
+.contentLogin > h3 {
+  align-self: center;
+  text-align: center;
+  width: 294px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 19px;
+  color: rgba(22, 22, 22, 0.36);
+  margin-bottom: 37px;
+  line-height: 27px;
+  color: rgba(22, 22, 22, 0.36);
+}
+
+.login .title {
+  font-size: 28px !important;
+  color: rgb(3, 251, 3);
+  font-weight: 700;
+}
+
+.login-remember-me-checkbox > svg {
+  fill: #1f905a !important;
+  border-radius: 4px !important;
+}
+
+.login-left-side {
+  position: relative;
+  max-width: 700px;
+  max-height: 750px;
+}
+
+.login-left-side > h1 {
+  position: absolute;
+  left: 106px;
+  margin: 0 !important;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100px;
+  color: #262626;
+}
+
+.login-remember-me-container {
+  width: 100%;
+  display: flex;
+  margin: 0 0 50px 0;
+  align-items: center;
+}
+
+.login-remember-me-container > span {
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  color: #696969;
+  font-family: 'Matter' !important;
+}
+
+.auth-submit-button {
+  background-color: #008000 !important;
+  color: white !important;
+  width: 100% !important;
+  height: 37px !important;
+  border-radius: 9px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-family: 'Matter' !important;
+  text-transform: capitalize !important;
+}
+.welcome .loginWord .back {
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.welcome {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 100px;
+  color: #262626;
+}
+
+.back {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 27px;
+  color: rgba(22, 22, 22, 0.36);
+}
+
+.dataBox > div {
+  font-family: 'Matter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #262626;
+  margin-bottom: 8px;
+  margin-top: 0 !important;
+}
+
+.MuiInputBase-root {
+  border-radius: 7px !important;
+  height: 47px;
+  border: 1px solid rgba(0, 128, 0, 0.2);
+}
+
+.dataBox {
+  min-width: 400px;
+  width: 100%;
+}
+.dataBox .css-1z10yd4-MuiFormControl-root-MuiTextField-root {
+  margin-top: 0 !important;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+input:-webkit-autofill {
+  -webkit-background-clip: text;
+}
+.login-left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Mui-error {
+  border-color: #ff4242 !important;
+}
+
+.logoLogin {
+  display: none;
+}
+.loginLabels {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #666666;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.errorMassage {
+  font-family: 'Poppins';
+  font-size: 12px;
+  padding-top: 10px;
+  color: red;
+}
+.titleLogin {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #666666;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .login {
+    gap: 20px;
+    margin: 10px 0 10px 0;
+    flex-direction: column;
+  }
+  .imgLogin {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-height: 800px) {
+  .login-left-side {
+    text-align: center;
+  }
+  .imgLogin {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .login {
+    gap: 60px;
+    margin: 0;
+    background-color: #008000;
+    border-radius: 0 !important;
+  }
+  .imgLogin {
+    display: none;
+  }
+  .logoLogin {
+    display: block;
+    width: 159px;
+    height: 29px;
+  }
+
+  .contentLogin > h2 {
+    margin-bottom: 11px;
+  }
+}
+
+@media only screen and (max-height: 655px) {
+  .login-left-side {
+    text-align: center;
+  }
+  .imgLogin {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .contentLogin {
+    align-items: flex-start;
+  }
+  .dataBox {
+    min-width: 200px;
+  }
+  .contentLogin > h3 {
+    align-self: start;
+  }
+  .contentLogin > h2 {
+    text-align: center;
+  }
+}

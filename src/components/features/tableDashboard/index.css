@@ -1,0 +1,38 @@
+.tableWrapper .MuiTablePagination-selectLabel {
+  display: none !important;
+}
+.tableWrapper .css-16c50h-MuiInputBase-root-MuiTablePagination-select {
+  display: none !important;
+}
+.tableWrapper .MuiTablePagination-displayedRows {
+  display: none !important;
+}
+.tableWrapper .MuiPaper-root {
+  padding: 30px 22px;
+}
+.tableWrapper .MuiIconButton-root {
+  color: rgba(0, 128, 0, 1) !important;
+}
+
+.tableWrapper .Mui-disabled {
+  color: rgba(0, 128, 0, 0.5) !important;
+}
+
+.MuiTableContainer-root {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+}
+.MuiTableContainer-root::-webkit-scrollbar {
+  width: 1px;
+  height: 10px;
+}
+
+.MuiTableContainer-root::-webkit-scrollbar-thumb {
+  background: rgba(0, 128, 0, 1);
+  border-radius: 9px;
+}
+@media screen and (max-width: 768px) {
+ .tableWrapper{
+  width: 100%;
+ }
+}
